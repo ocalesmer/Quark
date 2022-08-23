@@ -14,4 +14,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\corePackages\Core\Core.csproj" />
+  </ItemGroup>
+
 </Project>
