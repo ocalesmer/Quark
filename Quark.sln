@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\Quark\Pe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\Quark\WebAPI\WebAPI.csproj", "{EECB05B2-FD1F-4AAC-B3EF-41CA19BA0786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\corePackages\Core\Core.csproj", "{55FD403F-E4A6-4425-8CDC-64C835E70451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\corePackages\Core\Core.csproj", "{55FD403F-E4A6-4425-8CDC-64C835E70451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Resources", "src\corePackages\Core.Resources\Core.Resources.csproj", "{27D589B7-92C9-4F3F-B8E6-47555A7C1D0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{55FD403F-E4A6-4425-8CDC-64C835E70451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55FD403F-E4A6-4425-8CDC-64C835E70451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55FD403F-E4A6-4425-8CDC-64C835E70451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D589B7-92C9-4F3F-B8E6-47555A7C1D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D589B7-92C9-4F3F-B8E6-47555A7C1D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D589B7-92C9-4F3F-B8E6-47555A7C1D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D589B7-92C9-4F3F-B8E6-47555A7C1D0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{ED0B32AD-2429-40DA-8C9A-0849F7A29E46} = {49374302-361C-468C-8B26-CF950B88F2D3}
 		{EECB05B2-FD1F-4AAC-B3EF-41CA19BA0786} = {49374302-361C-468C-8B26-CF950B88F2D3}
 		{55FD403F-E4A6-4425-8CDC-64C835E70451} = {01B7F227-CE8F-41FD-9AF8-6AF5E5259161}
+		{27D589B7-92C9-4F3F-B8E6-47555A7C1D0D} = {01B7F227-CE8F-41FD-9AF8-6AF5E5259161}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C127633B-AB1B-43AE-A516-DCF06F13F757}

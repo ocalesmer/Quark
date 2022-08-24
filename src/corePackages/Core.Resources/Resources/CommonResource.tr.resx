@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiveUser" xml:space="preserve">
+    <value>Aktif Kullanıcı</value>
+  </data>
+  <data name="AdministratorsForNote" xml:space="preserve">
+    <value>Son kullanıcılar tarafından görüntülenmez, sistem yöneticileri tarafından not amaçlı kullanılır.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Vazgeç</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Dil Değiştir</value>
+  </data>
+  <data name="Current_Language_ID" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Müşteri</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Müşteriler</value>
+  </data>
+  <data name="DaysAgo" xml:space="preserve">
+    <value> Gün önce</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Pasif</value>
+  </data>
+  <data name="EMail" xml:space="preserve">
+    <value>E-Posta</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>Excel'e Aktar</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Şifremi Unuttum</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Adı Soyadı</value>
+  </data>
+  <data name="GeneralInformation" xml:space="preserve">
+    <value>Genel Bilgiler</value>
+  </data>
+  <data name="GoodAfternoon" xml:space="preserve">
+    <value>İyi Günler</value>
+  </data>
+  <data name="GoodEvening" xml:space="preserve">
+    <value>İyi Akşamlar</value>
+  </data>
+  <data name="GoodMorning" xml:space="preserve">
+    <value>Günaydın</value>
+  </data>
+  <data name="GoodNight" xml:space="preserve">
+    <value>İyi Geceler</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="HoursAgo" xml:space="preserve">
+    <value> Saat önce</value>
+  </data>
+  <data name="ImageFormats" xml:space="preserve">
+    <value>Lütfen png, jpg, jpeg resim formatlarından birini yükleyiniz.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="Informations" xml:space="preserve">
+    <value>Bilgileri</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Kullanıcı bilgileri hatalı. Lütfen yeniden deneyiniz.</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Yönetim</value>
+  </data>
+  <data name="Max10Files" xml:space="preserve">
+    <value>En fazla 10 dosya yükleyebilirsiniz.</value>
+  </data>
+  <data name="MessageSended" xml:space="preserve">
+    <value>Mesajınız gönderildi.</value>
+  </data>
+  <data name="MinAgo" xml:space="preserve">
+    <value> &lt;  1 dakika</value>
+  </data>
+  <data name="MinsAgo" xml:space="preserve">
+    <value> Dakika önce</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Profilim</value>
+  </data>
+  <data name="MyUserInformation" xml:space="preserve">
+    <value>Kullanıcı Bilgilerim</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Siparişler</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Cep Telefonu</value>
+  </data>
+  <data name="PhoneNumberIsNotValid" xml:space="preserve">
+    <value>Phone number is not valid.</value>
+  </data>
+  <data name="PhoneNumberRule" xml:space="preserve">
+    <value>Başında ülke kodu olacak şekilde 12 haneli olarak giriniz.</value>
+  </data>
+  <data name="PhotoCouldNotUploaded" xml:space="preserve">
+    <value>Photo could not uploaded.</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="RecordAdded" xml:space="preserve">
+    <value>Kayıt başarıyla eklendi.</value>
+  </data>
+  <data name="RecordAlreadyExist" xml:space="preserve">
+    <value>Bu kayıt bulunmaktadır.</value>
+  </data>
+  <data name="RecordApproved" xml:space="preserve">
+    <value>Kayıt Onaylandı.</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Kayıt başarıyla silindi.</value>
+  </data>
+  <data name="RecordNotAdded" xml:space="preserve">
+    <value>Kayıt eklenemedi.</value>
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>Aradığınız kayıt bulunamadı.</value>
+  </data>
+  <data name="RecordRejected" xml:space="preserve">
+    <value>Kayıt onaylanmadı.</value>
+  </data>
+  <data name="RecordsUpdated" xml:space="preserve">
+    <value>Bilgiler başarıyla güncellendi.</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Kayıt başarıyla güncellendi. </value>
+  </data>
+  <data name="RecordWithNameAlreadyExist" xml:space="preserve">
+    <value>Bu isimde kayıt bulunmaktadır.</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Raporlar</value>
+  </data>
+  <data name="ResettingYourPassword" xml:space="preserve">
+    <value>Şifrenizi sıfırlayarak ilerlemek için lütfen gerekli bilgileri doldurunuz.</value>
+  </data>
+  <data name="Rights" xml:space="preserve">
+    <value>Hakları</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SecureLogin" xml:space="preserve">
+    <value>Güvenli Giriş</value>
+  </data>
+  <data name="SecureLoginDescription" xml:space="preserve">
+    <value>Sisteme erişmek için kullanıcı bilgileriniz ile giriş yapmalısınız.</value>
+  </data>
+  <data name="SelectListItemSELECT" xml:space="preserve">
+    <value>--Seçiniz--</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="SignedOut" xml:space="preserve">
+    <value>Oturum kapatıldı.</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="SmsSendedForLogin" xml:space="preserve">
+    <value>Uygulamaya giriş için sms kodu cep telefonunuza gönderilmiştir.</value>
+  </data>
+  <data name="SmsVerificationText" xml:space="preserve">
+    <value>Uygulamaya giriş için şifreniz  :</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="UserEmailOrMobilePhoneExist" xml:space="preserve">
+    <value>Bu telefon numarası veya email ile kayıtlı kullanıcı bulunmaktadır.</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Kullanıcı bulunamadı.</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="ValidationForCreditCard" xml:space="preserve">
+    <value>Lütfen geçerli bir kredi kartı giriniz.</value>
+  </data>
+  <data name="ValidationForDate" xml:space="preserve">
+    <value>Lütfen geçerli bir tarih giriniz.</value>
+  </data>
+  <data name="ValidationForDigits" xml:space="preserve">
+    <value>Lütfen sadece sayısal karakterler giriniz.</value>
+  </data>
+  <data name="ValidationForEmail" xml:space="preserve">
+    <value>Lütfen geçerli bir e-posta adresi giriniz.</value>
+  </data>
+  <data name="ValidationForMax" xml:space="preserve">
+    <value>Lütfen {0} değerine eşit ya da daha küçük bir değer giriniz.</value>
+  </data>
+  <data name="ValidationForMaxLength" xml:space="preserve">
+    <value>Lütfen en fazla {1} karakter uzunluğunda bir değer giriniz.</value>
+  </data>
+  <data name="ValidationForMin" xml:space="preserve">
+    <value>Lütfen {0} değerine eşit ya da daha büyük bir değer giriniz.</value>
+  </data>
+  <data name="ValidationForMinLength" xml:space="preserve">
+    <value>Lütfen en az {1} karakter uzunluğunda bir değer giriniz.</value>
+  </data>
+  <data name="ValidationForNumber" xml:space="preserve">
+    <value>Lütfen geçerli bir sayı giriniz.</value>
+  </data>
+  <data name="ValidationForPasswordsMustBeSame" xml:space="preserve">
+    <value>Şifreler aynı olmalıdır.</value>
+  </data>
+  <data name="ValidationForPhone" xml:space="preserve">
+    <value>Lütfen geçerli bir telefon numarası giriniz.</value>
+  </data>
+  <data name="ValidationForRangeLength" xml:space="preserve">
+    <value>Lütfen en az {0} ve en fazla {1} uzunluğunda bir değer giriniz.</value>
+  </data>
+  <data name="ValidationForRequired" xml:space="preserve">
+    <value>Bu alan boş olmamalıdır.</value>
+  </data>
+  <data name="ValidationForUrl" xml:space="preserve">
+    <value>Lütfen geçerli bir web adresi (URL) giriniz.</value>
+  </data>
+  <data name="VerificationCodeIsExpired" xml:space="preserve">
+    <value>Doğrulama kodunun süresi geçmiş. Lütfen tekrar deneyiniz.</value>
+  </data>
+  <data name="VerificationCodeIsNotValid" xml:space="preserve">
+    <value>Doğrulama kodu geçerli değil. Lütfen tekrar deneyiniz.</value>
+  </data>
+  <data name="WantToLogin" xml:space="preserve">
+    <value>Giriş yapmak mı istiyorsunuz?</value>
+  </data>
+  <data name="WeeksAgo" xml:space="preserve">
+    <value> Hafta önce</value>
+  </data>
+  <data name="YearAgo" xml:space="preserve">
+    <value> Yıl önce</value>
+  </data>
+</root>
