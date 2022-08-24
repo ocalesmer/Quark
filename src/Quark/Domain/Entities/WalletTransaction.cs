@@ -8,9 +8,10 @@ namespace Domain.Entities
         public int ID { get; set; }
         public int CustomerID { get; set; }
         public int TransactionTypeID { get; set; }
-        public decimal TransactionFee { get; set; }
-        public DateTime CreatedDate { get; set; }       
-        public decimal CurrentBalance { get; set; }
-        public decimal? AfterAprovedBalance { get; set; }
+        public DateTime TransactionDate { get; set; }
+        public decimal Amount { get; set; }
+        public int CurrencyID { get; set; }
+        public decimal BalanceBefore { get; set; }
+        public decimal BalanceAfter { get; set; }
     }
 }
